@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="usingwebservices.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title></title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    <link href="css/my.css" rel="stylesheet" />
+           <link rel="stylesheet" type="text/css"href="my.css" />
+   
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <!DOCTYPE html>  
+         <link rel="stylesheet" type="text/css"href="my.css" />
+
+<header id="header"></header>
+
+
+<nav id="nav">  
+   
+    <img src="coffee.jpg" alt="coffee" width="100" height="100"/>
+ <hr ="2"/>
+     <ul class="nav navbar-nav">
+         <li class="active"><a href="default.aspx">Home |</a></li>
+        <li><a href="WorldCurrency.aspx">world currecny on map webservice |</a></li>
+     
+ <!-- navigation bar-->
+      </ul>
+    <hr ="2"/>
+</nav>  
+
+
+<aside id="side">  
+    <h1>news</h1>  
+    <p>Please visit us in the next coming weeks where we will be updating our site with great new features for all like sending an email, conversion and planning a distance via API Google
+        maps. So please stay tuned and this will be a great new feature which we hope you will enjoy exploring soon. Thank you.
+
+        please note to access the currency web service this is on a seperate page due to it interferes with the local currency implemented on this page.
+    </p>
+    
+</aside>  
+  
+  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">  
+          
+        </asp:ContentPlaceHolder>  
+    </div>  
+  
+  
+<footer id="footer">  
+
+    <hr="2"/>
+    <a href ="default.aspx" style="text-decoration:none"> Home  |</a> 
+    <a href ="WorldCurrency.aspx" style="text-decoration:none"> world currency on map |</a> 
+
+<hr ="2"/>
+
+
+    copyright @ software devs in apps frameworks  
+    <a href="http://www.Facebook.com"> <img src="faceb.png" alt="facebook" style="float: left;width:50px;height:50px;"/> </a> 
+<a href="http://www.instagram.com"> <img src="instagram.png" alt="instgram" style="float: left;width:50px;height:50px;"/> </a>
+<!-- with the image tag I have added anchor tag, to make image as link.-->
+</footer>  
+    </div>
+    </form>
+</body>
+</html>
